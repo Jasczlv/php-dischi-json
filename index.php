@@ -1,5 +1,4 @@
 <?php
-include __DIR__ . '/server.php';
 ?>
 <!DOCTYPE html>
 <html lang="en">
@@ -11,7 +10,8 @@ include __DIR__ . '/server.php';
 <body>
 <script src="https://unpkg.com/vue@3/dist/vue.global.js"></script>    
 <h1>
-    <?php echo $json_decoded; ?>
+    yaaaay!
 </h1>
+<img src="https://media.tenor.com/lCKwsD2OW1kAAAAj/happy-cat-happy-happy-cat.gif" alt="happy happy happy">
 </body>
 </html>
