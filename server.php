@@ -4,4 +4,8 @@ $json_decoded = json_decode($json_raw, true); //trasforma la stringa in variabil
 
 header('Content-Type: application/json');
 
-echo json_encode( $json_decoded);
+$data = [
+    'results' => $json_decoded,
+];
+
+echo json_encode( $data);
